@@ -24,12 +24,12 @@ export default function Sidebar() {
     { name: "User", href: "/user", icon: Users },
     { name: "Trust & Safety", href: "/trust-and-safety", icon: ShieldAlert },
     { name: "Bookings", href: "/bookings", icon: CalendarDays },
-    { name: "Financials", href: "#", icon: CircleDollarSign },
-    { name: "Content", href: "#", icon: FileText },
-    { name: "Support", href: "#", icon: Headset },
-    { name: "Analytics", href: "#", icon: BarChart3 },
-    { name: "System Health", href: "#", icon: Activity },
-    { name: "Compliance", href: "#", icon: ShieldCheck },
+    { name: "Financials", href: "/financials", icon: CircleDollarSign },
+    { name: "Content", href: "/content", icon: FileText },
+    { name: "Support", href: "/support", icon: Headset },
+    { name: "Analytics", href: "/analytics", icon: BarChart3 },
+    { name: "System Health", href: "/system-health", icon: Activity },
+    { name: "Compliance", href: "/compliance", icon: ShieldCheck },
   ];
 
   return (
